@@ -48,7 +48,7 @@ public class Matriz {
 						System.out.printf("Left: %d%n", matriz[i][j - 1]);
 					}
 					if (j < matriz[i].length - 1) {
-						System.out.printf("Righht: %d%n", matriz[i][j + 1]);
+						System.out.printf("Right: %d%n", matriz[i][j + 1]);
 					}
 					if (i > 0) {
 						System.out.printf("Up: %d%n", matriz[i - 1][j]);
