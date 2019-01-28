@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
+import aula112.entities.EscreveArquivo;
 import aula112.entities.Pessoa;
 import aula112.entities.PessoaFisica;
 import aula112.entities.PessoaJuridica;
@@ -24,9 +25,10 @@ public class Program {
 			System.out.println("Tax payer #" + i + " data:");
 			System.out.print("Individual or company (i/c)? ");
 			char op = input.next().charAt(0);
-
+			input.nextLine();
+			
 			System.out.print("Name: ");
-			String nome = input.next();
+			String nome = input.nextLine();
 
 			System.out.print("Anual income: ");
 			double rendaAnual = input.nextDouble();
@@ -59,6 +61,9 @@ public class Program {
 
 		System.out.println();
 		System.out.print("TOTAL TAXES: " + String.format("%.2f", totalTaxas));
+		
+		String StrFile = "C:\\Users\\erich\\OneDrive\\Área de Trabalho\\Udemy\\Java curso completo\\arquivos aulas\\out\\aula112.csv";
+		EscreveArquivo.escreve(list, StrFile);
 
 		input.close();
 	}

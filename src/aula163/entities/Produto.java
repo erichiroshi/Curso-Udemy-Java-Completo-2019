@@ -13,19 +13,13 @@ public class Produto {
 		this.qnt = qnt;
 	}
 
-	
-	
 	public String getName() {
 		return name;
 	}
-
-
 
 	public double total() {
 
 		return price * qnt;
 	}
 
-	
-	
 }

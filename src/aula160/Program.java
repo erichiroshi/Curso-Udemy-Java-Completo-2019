@@ -8,7 +8,7 @@ public class Program {
 
 	public static void main(String[] args) {
 
-		String path = "C:\\Users\\erich\\OneDrive\\Área de Trabalho\\Udemy\\Java curso completo\\out.txt";
+		String path = "C:\\Users\\erich\\OneDrive\\Área de Trabalho\\Udemy\\Java curso completo\\arquivos aulas\\out.txt";
 		String[] lines = new String[] { "Bom dia", "Boa tarde", "Boa noite" };
 
 		try (BufferedWriter bw = new BufferedWriter(new FileWriter(path, true))) {
