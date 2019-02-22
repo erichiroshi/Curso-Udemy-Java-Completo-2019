@@ -43,7 +43,7 @@ public class Matriz {
 			for (int j = 0; j < matriz[i].length; j++) {
 
 				if (matriz[i][j] == x) {
-					System.out.printf("Position: %d,%d%n", i, j);
+					System.out.printf("Position: %d,%d%n", i+1, j+1);
 					if (j > 0) {
 						System.out.printf("Left: %d%n", matriz[i][j - 1]);
 					}

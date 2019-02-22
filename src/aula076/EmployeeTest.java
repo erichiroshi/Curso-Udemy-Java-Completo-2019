@@ -54,8 +54,8 @@ public class EmployeeTest {
 		/*
 		 * Scanner input = new Scanner(System.in);
 		 * 
-		 * System.out.print("How many employees will be registered? "); Employee[]
-		 * employee = new Employee[input.nextInt()];
+		 * System.out.print("How many employees will be registered? "); 
+		 * Employee[] employee = new Employee[input.nextInt()];
 		 * 
 		 * for (int i = 0; i < employee.length; i++) {
 		 * 
