@@ -1,6 +1,6 @@
 package aula185.entities;
 
-public class Product implements Comparable<Product> {
+public class Product {
 
 	private String name;
 	private Double price;
@@ -63,9 +63,6 @@ public class Product implements Comparable<Product> {
 		return name;
 	}
 
-	@Override
-	public int compareTo(Product other) {
-		return name.toUpperCase().compareTo(other.getName().toUpperCase());
-	}
+	
 
 }

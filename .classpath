@@ -5,6 +5,6 @@
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="src" path="src"/>
+	<classpathentry excluding="aula097dd/application/|aula097dd/entities/|aula097dd/entities/enums/" kind="src" path="src"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
